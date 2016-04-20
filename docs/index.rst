@@ -8,6 +8,8 @@ Welcome to devinbalkind.com's documentation!
 
 Learn everything you want to know about devinbalkind.com!
 
+... but were afraid to ask.
+
 Contents:
 
 .. toctree::
