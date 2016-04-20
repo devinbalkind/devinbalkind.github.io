@@ -1,0 +1,1 @@
+Search.setIndex({envversion:42,terms:{index:0,about:0,modul:0,search:0,you:0,content:0,know:0,want:0,learn:0,everyth:0,page:0},objtypes:{},objnames:{},filenames:["index"],titles:["Welcome to devinbalkind.com&#8217;s documentation!"],objects:{},titleterms:{welcom:0,indic:0,devinbalkind:0,tabl:0,document:0,com:0}})

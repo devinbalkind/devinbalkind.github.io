@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # devinbalkind.com documentation build configuration file, created by
-# sphinx-quickstart on Wed Apr 20 16:12:19 2016.
+# sphinx-quickstart on Wed Apr 20 18:59:07 2016.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -28,26 +28,19 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
-]
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.txt'
+source_suffix = '.rst'
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'docs-index'
+master_doc = 'index'
 
 # General information about the project.
 project = u'devinbalkind.com'
@@ -74,7 +67,7 @@ release = '1'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -203,7 +196,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('docs-index', 'devinbalkindcom.tex', u'devinbalkind.com Documentation',
+  ('index', 'devinbalkindcom.tex', u'devinbalkind.com Documentation',
    u'devin', 'manual'),
 ]
 
@@ -233,7 +226,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('docs-index', 'devinbalkindcom', u'devinbalkind.com Documentation',
+    ('index', 'devinbalkindcom', u'devinbalkind.com Documentation',
      [u'devin'], 1)
 ]
 
@@ -247,7 +240,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('docs-index', 'devinbalkindcom', u'devinbalkind.com Documentation',
+  ('index', 'devinbalkindcom', u'devinbalkind.com Documentation',
    u'devin', 'devinbalkindcom', 'One line description of project.',
    'Miscellaneous'),
 ]
@@ -333,7 +326,3 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
-
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}

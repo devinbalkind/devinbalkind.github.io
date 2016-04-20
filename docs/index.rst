@@ -1,10 +1,12 @@
 .. devinbalkind.com documentation master file, created by
-   sphinx-quickstart on Wed Apr 20 16:12:19 2016.
+   sphinx-quickstart on Wed Apr 20 18:59:07 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 Welcome to devinbalkind.com's documentation!
 ============================================
+
+Learn everything you want to know about devinbalkind.com!
 
 Contents:
 
@@ -20,22 +22,3 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-
-Features
---------
-
-- Be awesome
-- Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
